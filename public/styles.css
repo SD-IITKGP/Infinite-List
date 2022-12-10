@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: Montserrat, sans-serif;
+}
+body {
+  background: #eee !important;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png") !important;
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.Header {
+  background-color: #f5ba13;
+  padding: 1%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.form {
+  margin-top: 15% !important;
+}
+.Footer {
+  text-align: center;
+  color: #ccc;
+  position: relative;
+  line-height: 2.5rem;
+  margin-top: 5%;
+  /* position: absolute;
+  bottom: 0; */
+}
+.Footer a {
+  color: #f5ba13;
+  text-decoration: none;
+}
+.List {
+  margin: 5%;
+  padding-top: 2%;
+}
+.List img {
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.Item {
+  border: 2px solid black !important;
+}
